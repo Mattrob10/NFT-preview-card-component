@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  background-color: hsl(217, 54%, 11%);
+  box-sizing: border-box;
+  font-family: 'Outfit', sans-serif;
+
+}
+
+.attribution{
+  margin-top: 50px;
+  color: white;
+  font-size: 50px;
+}
+
+.card-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  box-shadow: 0 0 40px 0 rgb(0, 0, 0);
+  box-shadow: 65px rgba(0, 0, 0, 0.673);
+}
+
+.card {
+  background-color: hsl(216, 50%, 16%);
+  height: 600px;
+  width: 350px;
+  border-radius: 15px;
+  padding: 12px 22px;
+  color: hsl(0, 0%, 100%)
+}
+
+.card *{
+  background-color: transparent;
+}
+.card-image {
+  margin: 10px 0;
+  height: 300px;
+  width: 305px;
+  border-radius: 7px;
+}
+
+.title h2{
+  font-size: 22px;
+  font-weight: 500;
+  margin-block: 10px;
+  letter-spacing: .5px;
+}
+
+.card p{
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: .2px;
+  line-height: 1.5rem;
+  margin: 15px 0 10px 0;
+  padding: 0px 0px;
+  color: hsla(215, 50%, 72%, 0.711);
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-stat p{
+  display: flex;
+  align-items: center;
+  color: hsl(178, 100%, 50%);
+  font-size: 16px;
+  letter-spacing: .5px;
+}
+
+.left-stat p svg{
+  margin-right: 5px;
+}
+
+.right-stat p{
+  display: flex;
+  align-items: center;
+  color: hsla(215, 50%, 72%, 0.711);
+  font-size: 17px;
+  letter-spacing: .3px;
+  font-weight: 300;
+}
+
+.right-stat p svg{
+  margin-right: 5px;
+}
+
+
+.border {
+  border-bottom: 1px solid hsla(0, 0%, 100%, 0.153);
+  margin-top:  15px;
+}
+
+.footer {
+  display: flex;
+  align-items: center; 
+}
+
+.footer img {
+  margin: 20px 0;
+  height: 35px;
+  border: 1px solid hsl(0, 0%, 100%);
+  border-radius: 50%;
+}
+
+.footer p {
+  font-size: 16px;
+  color: hsl(0, 0%, 100%);
+  font-weight: 300;
+  margin: 0 10px 0 15px; 
+  letter-spacing: .8px;
+}
+
+.footer .footer-span {
+  color: hsla(215, 50%, 70%, 0.796);
+  font-weight: 300;
+}
